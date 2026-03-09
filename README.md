@@ -33,7 +33,7 @@ This is a modernized/fixed version that brings .rip import support to current Bl
 - No animation/bone support (static meshes only)
 
 ## Credits
-- Original NinjaRipper tool & 2.79 importer by **blackhole12 / ripper**
-- Blender 5.0 port & fixes by [Noob404studio]
+- Original NinjaRipper tool & 2.79 importer by blackninja
+- Blender 5.0 port & fixes by **Noob404studio**
 
 Feel free to report issues or submit fixes via pull requests, I will add you to the credits list.
