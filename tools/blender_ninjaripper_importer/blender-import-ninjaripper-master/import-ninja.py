@@ -17,7 +17,7 @@ import hashlib
 from struct import *
 
 bl_info = {
-    "name": "Ninja Ripper mesh data (.rip) - FIXED",
+    "name": "Ninja Ripper mesh data (.rip) - 5.0 Fix by Noob404studio",
     "author": "Alexander Gavrilov",
     "version": (0, 2),
     "blender": (2, 77, 0),
