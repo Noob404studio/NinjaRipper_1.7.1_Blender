@@ -1,0 +1,45 @@
+﻿1.7.0
+D3D11 x64 bug fix
+Injection bug fix
+
+1.6.4
+D3D11 bug fix
+
+1.6.3
+DLL injection bug fixes
+
+1.6.2
+Injection from x32 to x64 
+Injection from x64 to x32
+
+1.6.1
+Bug fix for Chrome ripping
+Added support for Flashpoint Red River
+
+1.6.0
+Chrome ripping
+
+1.5.3
+Direct9Ex bug fix
+FireFox 51 ripping
+
+1.5.2
+D3D11 bug fix
+
+1.5.1
+D3D11 ripper bug fixes
+
+1.5.0
+Поддержка Direct3D 6 (DirectX 6)
+
+
+1.4.1
+Error bug fix
+
+
+1.4.0
+Поддержка Direct3D 7 (DirectX 7)
+Поддержка DirectDraw
+Исправление ошибок в риппере D3D9, когда рипались не все меши
+Поддержка рипа из браузера FireFox
+Поддержка всех функций рендеринга D3D7/D3D8/D3D9/D3D11
