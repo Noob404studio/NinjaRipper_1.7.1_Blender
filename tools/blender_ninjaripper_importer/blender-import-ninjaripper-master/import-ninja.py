@@ -17,7 +17,7 @@ import hashlib
 from struct import *
 
 bl_info = {
-    "name": "Ninja Ripper mesh data (.rip) - 5.0 Fix by Noob404studio",
+    "name": "Ninja Ripper mesh data (.rip) - Blender 4.0+ / 5.x (RGBA color layer fix) by Noob404studio ",
     "author": "Alexander Gavrilov",
     "version": (0, 2),
     "blender": (2, 77, 0),
@@ -707,7 +707,7 @@ class RipConversion(object):
                     continue
 
                 cdata = cattr.as_floats(4, 255)
-                add_color_layer('color'+str(idx), list(map(lambda v: v[0:3], cdata)))
+                add_color_layer('color'+str(idx), list(map(lambda v: tuple(v[0:3]) + (1.0,), cdata)))
 
                 if cattr.items == 4:
                     add_color_layer('alpha'+str(idx), list(map(lambda v: (v[3],v[3],v[3]), cdata)))
